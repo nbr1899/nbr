@@ -1,0 +1,46 @@
+#section-saprissa, #section-herediano, #section-club-america, #section-monterrey, #section-toluca{
+    border: 1px solid;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: auto;
+    display: block;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.527), -2px -2px 6px rgba(0, 0, 0, 0.527);
+    border-color: black;
+}
+#article-saprissa header, #article-herediano header, #article-club-america header, #article-monterrey header, #article-toluca header{
+    margin-left: 30px;
+    font-size: 24px;
+    font-family: 'Poppins', arial;
+}
+#article-saprissa p, #article-herediano p, #article-club-america p, #article-monterrey p, #article-toluca p{
+    margin-left: 255px;
+    padding: 5px 30px 8px 0px;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 26px;
+    font-family: 'Poppins', arial;
+    z-index: 1;
+}
+#img-saprissa, #img-herediano, #img-club-america, #img-monterrey, #img-toluca{
+    float: left;
+    position: relative;
+    clear: none;
+    display: block;
+    left: 3%;
+}
+#img-saprissa{
+    top: 5em;
+    left: 2.5%;
+}
+#img-club-america{
+    left: 1.5%;
+    top: 6em;
+}
+#img-toluca{
+    top: 2.5em;
+}
+#img-herediano, #img-monterrey{
+    padding-bottom: 20px;
+}

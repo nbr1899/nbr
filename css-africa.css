@@ -1,0 +1,42 @@
+#section-al-ahly, #section-esperance, #section-zamalek, #section-wydad, #section-etoile  {
+    border: 1px solid;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: auto;
+    display: block;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.527), -2px -2px 6px rgba(0, 0, 0, 0.527);
+    border-color: black;
+}
+#section-al-ahly header, #section-esperance header, #section-zamalek header, #section-wydad header, #section-etoile header{
+    margin-left: 30px;
+    font-size: 26px;
+    font-family: 'Poppins', arial;
+}
+#img-al-ahly, #img-esperance, #img-zamalek, #img-wydad, #img-etoile{
+    float: left;
+    position: relative;
+    clear: none;
+    display: block;
+    left: 3%;
+}
+#img-al-ahly, #img-wydad{
+    left: 4%;
+    padding-bottom: 20px;
+}
+#img-esperance, #img-zamalek{
+    top: 2.5em;
+}
+#img-esperance{
+    left: 2%;
+}
+#article-al-ahly p, #article-esperance p, #article-zamalek p, #article-wydad p, #article-etoile p{
+    margin-left: 255px;
+    padding: 5px 30px 8px 0px;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 26px;
+    font-family: 'Poppins', arial;
+    z-index: 0;
+}
